@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bcgrd"
+    android:padding="10dp" >
+ 
+        
+           <ImageButton
+        android:id="@+id/music_searchbtn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/music_lv"
+        android:scaleType="fitXY"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/transparent"
+        android:src="@drawable/searching" /> 
+    <EditText
+        android:id="@+id/music_searchet"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@id/music_searchbtn"
+        android:layout_marginRight="10dp"
+      	android:background="@drawable/blackshape"
+        android:hint="请输入歌曲名称..." />
+        
+        <FrameLayout
+            android:id="@+id/music_playview"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_centerInParent="true"
+            android:scaleType="fitXY"
+            android:background="@drawable/pic1" >
+        <ImageButton
+            android:id="@+id/music_playbtn"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_margin="25dp"
+            android:scaleType="fitXY"
+            
+            android:background="@drawable/play" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/music_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+        	android:layout_below="@id/music_playview"
+			android:layout_marginTop="30dp"
+            android:layout_centerHorizontal="true"
+            android:text="@string/musicname"
+            android:textSize="30sp" />
+ 
+
+</RelativeLayout>

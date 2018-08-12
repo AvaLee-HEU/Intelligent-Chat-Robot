@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <color name="s">#00000000</color>
+    <color name="transparent">#0000</color>    
+     <color name="top_bar">	#87CEFA</color>
+    <color name="white">#FFFFFF</color>
+       <!--聊天的时间背景色-->
+    <color name="chat_item_time">#808080</color>
+    <color name="black">#000000</color>  
+    <color name="sendbutton">#87CEFA</color>
+    <color name="ghostWhite">#D3D3D3</color>  
+    <color name="halftransparent">#9000</color>
+</resources>

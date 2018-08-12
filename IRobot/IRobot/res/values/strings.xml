@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">IRobot</string>
+    <string name="introducecontent1">Welcome to IRobot!</string>
+    <string name="introducecontent2">This is me!</string>
+    <string name="introducecontent3">I am your Intelligent Friend!</string>
+    <string name="main_title">智能机器人</string>
+    <string name="main_title_right" />
+    <string name="time">2018-1-22 2:58</string>
+    <string name="revise">修改对话</string>
+    <string name="add">添加对话</string>
+    <string name="delete">删除对话</string>
+    <string name="onlinemusic">在线音乐</string>
+    <string name="localmusic">本地音乐</string>
+    <string name="musicname">播放音乐</string>
+    <string name="play">Play</string>
+    <string name="stop">Stop</string>
+    <string name="song">歌曲名</string>
+
+</resources>

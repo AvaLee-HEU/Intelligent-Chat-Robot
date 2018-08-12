@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/left_time_lo_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:text="@string/time"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="15dp"
+        android:gravity="left|top"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+          
+            <ImageView
+                android:id="@+id/robot_imageView_lo_id"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/robot" />
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="IRobot"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/robot_msg_ll_lo_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+         
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/robot_msg_tv_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                   android:background="@drawable/left_msg_frame"
+             android:padding="10dp"
+                android:text="New Text"
+            
+                android:textColor="@color/black" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
